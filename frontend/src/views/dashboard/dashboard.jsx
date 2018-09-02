@@ -1,14 +1,10 @@
 import React from 'react';
 import {Footer} from "./../../common/footer/footer";
 import {Header} from "./../../common/header/header";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Login from "./../../views/login";
 import {Navigation} from "../../common/navigation/navigation";
 
 class Dashboard extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+   
     render() {
         return (
 

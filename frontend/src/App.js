@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
+import {Redirect, Route, Switch} from "react-router-dom";
 import Login from "./views/login";
-import {Route, BrowserRouter as Router} from "react-router-dom";
 import Dashboard from "./views/dashboard/dashboard";
-
 
 class App extends React.Component {
     constructor(props) {
@@ -12,13 +11,13 @@ class App extends React.Component {
     }
     render() {
         return (
-            <Router>
                 <div>
-                    <Route path="/" component={Login}></Route>
-                    <Route path="/login" component={Login}></Route>
-                    <Route path="/home" component={Dashboard}/>
+                 <Switch>
+                     <Route exact path="/" component={Login} />
+                     <Route exact path="/home" component={Dashboard} />
+                     <Redirect to="/" />
+                 </Switch>
                 </div>
-            </Router>
         );
     }
 }

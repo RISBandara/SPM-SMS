@@ -1,18 +1,11 @@
 
 import React, { Component } from 'react';
-import Storage from '../storage/storage';
 import './login.css';
 import LeftImage from './login1.jpg';
 import Logo from './logo.png';
 import {Link} from "react-router-dom";
 class Login extends Component {
-    constructor(props) {
-        super(props);
 
-    }
-    handleLoginClick() {
-        Storage.createClass=true;
-    }
     render() {
         return (
             <div className="login-page">
@@ -35,7 +28,7 @@ class Login extends Component {
                                             <label>Password</label>
                                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
                                         </div>
-                                        <Link to="/home" ><button type="submit" className="btn btn-primary col-md-12 col-sm-12 col-lg-12">Login</button></Link>
+                                        <Link to="/home"><button type="submit" className="btn btn-primary col-md-12 col-sm-12 col-lg-12">Login</button></Link>
                                     </form>
                                 </div>
                             </div>
