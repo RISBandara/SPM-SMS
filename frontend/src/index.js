@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import CompanyApp from './app_view/company_view';
 import registerServiceWorker from './registerServiceWorker';
-import App from "./App";
-import {BrowserRouter} from "react-router-dom";
+import Login from "./views/login";
 
-
-ReactDOM.render(
-    <BrowserRouter>
-    <App/>
-    </BrowserRouter>,document.getElementById('root'));
-                    registerServiceWorker();
+ReactDOM.render(<CompanyApp/>, document.getElementById('root'));
+registerServiceWorker();
