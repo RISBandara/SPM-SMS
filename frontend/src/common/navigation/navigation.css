@@ -5,9 +5,10 @@
 }
 .navigation{
     background: #222d32;
-    height: auto;
+    height: calc( 100vh - 50px);
     padding-right: 0;
-    min-height: 800px;
+    display:block;
+    /*min-height: 100vh;*/
 }
 
 .navigation-item{

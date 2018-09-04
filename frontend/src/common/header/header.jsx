@@ -8,8 +8,7 @@ export class Header extends React.Component {
     render() {
         return (
             <div className="header">
-         
-                Industrial training Management System
+                Industrial Training Management System 1.0.0
             </div>
         );
     }

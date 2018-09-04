@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
  * parse requests of content-type - application/json
  */
 app.use(bodyParser.json());
-app.use(cors({origin: 'http://localhost:4200'}));
+app.use(cors({origin: 'http://localhost:3000'}));
 
 const dbConfig = require('./config/database.config.js');
 const mongoose = require('mongoose');
