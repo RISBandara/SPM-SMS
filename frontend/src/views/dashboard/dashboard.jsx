@@ -4,10 +4,9 @@ import {Header} from "./../../common/header/header";
 import {Navigation} from "../../common/navigation/navigation";
 
 class Dashboard extends React.Component {
-   
+
     render() {
         return (
-
                 <div className="App">
                     <Header/>
                     <div className="row sidebar">
@@ -24,7 +23,6 @@ class Dashboard extends React.Component {
                     </div>
                     <Footer/>
                 </div>
-
         );
     }
 }
