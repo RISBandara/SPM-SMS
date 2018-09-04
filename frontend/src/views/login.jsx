@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 import './login.css';
 import LeftImage from './login1.jpg';
 import Logo from './logo.png';
-import {Link} from "react-router-dom";
 class Login extends Component {
-
     render() {
         return (
             <div className="login-page">
@@ -15,20 +13,21 @@ class Login extends Component {
                     </div>
                     <div className="col-sm-3 col-md-3 col-lg-3">
                         <div className="row right-panel justify-content-center">
+
                             <img className="logo img-fluid" alt="Responsive image" src={Logo}/>
                             <div className="text"><h4>Sri Lanka Institute of Information Technology</h4></div><br/>
-                            <div className="card col-md-10 col-sm-10 col-lg-10">
-                                <div className="card-body">
+                            <div class="card col-md-10 col-sm-10 col-lg-10">
+                                <div class="card-body">
                                     <form>
-                                        <div className="form-group">
-                                            <label>Username</label>
-                                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Username</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
                                         </div>
-                                        <div className="form-group">
-                                            <label>Password</label>
-                                            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
                                         </div>
-                                        <Link to="/home"><button type="submit" className="btn btn-primary col-md-12 col-sm-12 col-lg-12">Login</button></Link>
+                                        <button type="submit" class="btn btn-primary col-md-12 col-sm-12 col-lg-12">Login</button>
                                     </form>
                                 </div>
                             </div>
@@ -36,6 +35,7 @@ class Login extends Component {
                     </div>
                 </div>
             </div>
+
         );
     }
 }
