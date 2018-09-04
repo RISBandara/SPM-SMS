@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CompanyApp from './app_view/company_view';
 import registerServiceWorker from './registerServiceWorker';
-import Login from "./views/login";
+import Student_App from "./app_view/student_view";
 
-ReactDOM.render(<CompanyApp/>, document.getElementById('root'));
+ReactDOM.render(<Student_App/>, document.getElementById('root'));
 registerServiceWorker();
