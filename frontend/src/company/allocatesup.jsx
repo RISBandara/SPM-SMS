@@ -1,6 +1,11 @@
 import React from 'react';
 
 export default class Allocatesup extends React.Component {
+
+    constructor(props){
+        super(props);
+        this.state={assign:[],supervisor:[{"name":"Ishantha"},{"name":"Kasun"},{"name":"Sunil"}],student:[{"sname":"W.M.Jayamaha"},{"sname":"T.K.Dissanayake"}]}
+    }
     render() {
         return (
             <div style={{textAlign:'left',marginLeft:'5px',marginRight:'5px',padding:'4px'}}>
@@ -30,20 +35,18 @@ export default class Allocatesup extends React.Component {
                         <div className="form-group ">
                             <label className="col-form-label" htmlFor="inputDefault">Student Name <text style={{color:'red'}}>*</text></label>
                             <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
+                               {this.state.student.map(std=><option>
+                                  {std.sname}
+                                   </option>)}
                             </select>
                         </div>
                         <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Supervisor <text style={{color:'red'}}>*</text></label>
                            <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
+                              {this.state.supervisor.map(sup=><option>
+                                  {sup.name}
+                              </option>)}
                             </select>
                             
                         </div>
