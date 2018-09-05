@@ -22,18 +22,19 @@ export default class Formione extends React.Component {
         return (
             <div>
                 <h3 style={title_display}>Industrial Training Management - INTERNSHIP ACCEPTANCE FORM I-1</h3> <br/>
-                <center><h5>(All the fields Required**)</h5>
+                <center><h5>(Enter Student ID and Check Details**)</h5>
                 </center>
 
                 <form>
                     <div className="container" style={container_display}>
 
                         <div className="row" style={margin_1}>
-                            <div className="col-md-3">
+                            <div className="col-md-2">
                                 <label>Student ID</label>
                             </div>
                             <div className="col-md-3">
                                 <input type="number" className="form-control" id="studentid"/>
+                                <button type="submit" style={button_css}>Search Student Details</button>
                             </div>
                         </div>
                         <br/>
