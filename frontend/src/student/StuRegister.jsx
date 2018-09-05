@@ -47,7 +47,7 @@ export default class StuRegister extends Component {
                                         <label className="col-form-label "
                                                htmlFor="inputDefault">Year <text style={{color:'red'}}>*</text></label>
                                         <select className="custom-select" required="required">
-                                            <option value="0">select year</option>
+                                            <option value="">select year</option>
                                             <option value="1">First</option>
                                             <option value="2">Second</option>
                                             <option value="3">Third</option>
@@ -58,7 +58,7 @@ export default class StuRegister extends Component {
                                         <label className="col-form-label "
                                                htmlFor="inputDefault">Semester <text style={{color:'red'}}>*</text></label>
                                         <select className="custom-select" required="required">
-                                            <option selected="">select semester</option>
+                                            <option value="">select semester</option>
                                             <option value="1">First</option>
                                             <option value="2">Second</option>
                                         </select></div>
