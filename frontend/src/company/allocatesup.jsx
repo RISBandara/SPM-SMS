@@ -43,11 +43,7 @@ export default class Allocatesup extends React.Component {
                         <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Supervisor <text style={{color:'red'}}>*</text></label>
-                           <select className="form-control">
-                              {this.state.supervisor.map(sup=><option>
-                                  {sup.name}
-                              </option>)}
-                            </select>
+                           <input type="text" className="form-control " id="project" required="required" placeholder="Enter Supervisor name "/>
                             
                         </div>
                         <div className="row"> 
@@ -57,10 +53,17 @@ export default class Allocatesup extends React.Component {
                                     <input type="text" className="form-control " id="project" required="required" placeholder="Enter project name "/>
                                 </div>  
                             </div>
+                           
                             <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Date</label>
                             <input type="date" className="form-control " id="date"/>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <div className="form-group ">
+                            <label className="col-form-label "
+                                   htmlFor="inputDefault">Position</label>
+                            <input type="test" className="form-control " id="position"/>
                         </div>
                             </div>
                         
