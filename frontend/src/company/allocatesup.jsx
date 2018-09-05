@@ -3,7 +3,7 @@ import React from 'react';
 export default class Allocatesup extends React.Component {
     render() {
         return (
-            <div style={{textAlign:'left',marginTop:'5px'}}>
+            <div style={{textAlign:'left',marginLeft:'5px',marginRight:'5px',padding:'4px'}}>
             <h4>Supervisor Allocation</h4>
             <div className="card border-info">
                 <form>
@@ -45,7 +45,21 @@ export default class Allocatesup extends React.Component {
                                 <option>3</option>
                                 <option>4</option>
                             </select>
+                            
                         </div>
+                        <div className="row"> 
+                            <div className="col-md-6">
+                                <div className="form-group ">
+                                    <label className="col-form-label">Project  </label>
+                                    <input type="text" className="form-control " id="project" required="required" placeholder="Enter project name "/>
+                                </div>  
+                            </div>
+                            <div className="form-group ">
+                            <label className="col-form-label "
+                                   htmlFor="inputDefault">Date</label>
+                            <input type="date" className="form-control " id="date"/>
+                        </div>
+                            </div>
                         
                         <div className="form-group text-right">
                             <button type="submit" className="btn btn-info pull-right">Submit </button>
