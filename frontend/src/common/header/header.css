@@ -1,10 +1,25 @@
 .header{
     height:60px;
     background: #17a2b8;
-    background-image: url("../../IMG/logo.png");
+    /*background-image: url("../../IMG/logo.png");*/
     text-align: center;
     font-size: 30px;
     color: aliceblue;
     background-repeat: no-repeat;
+    padding-top: 5px;
+
     
+}
+.image{
+    text-align: left;
+}
+.username{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.header-logo{
+    height:50px;
+    width:200px;
 }
