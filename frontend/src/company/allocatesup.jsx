@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 
 function serachingfor(term) {
@@ -25,17 +26,25 @@ export default class Allocatesup extends React.Component {
         var std = this.refs.student.value;
         var date = this.refs.date.value;
         var position = this.refs.position.value;
+        var mail=this.refs.email.value;
         var pro = this.refs.project.value;
         var cmp = this.refs.companyname.value;
-        var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"company":cmp};
+        var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"compname":cmp,"email":mail};
 
         this.setState({assign:assignment});
 
-        //axios.post('http://localhost:3003/assign',assignment).then(function(data){
-          //  console.log(data);
-            //alert("Assign Succesfully !!!");
-        //});
-
+       
+        if(cmp==='' || std===''|| sup==='' || mail==='' || position===''||pro===''){
+            alert('Enter Correct details');
+        }
+        else{
+            
+            axios.post('http://localhost:3001/assign',assignment).then(function(data){
+            
+            alert("Assign Succesfully !!!");
+        });
+                
+            }
 
     };
     render() {

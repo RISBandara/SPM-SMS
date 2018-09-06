@@ -37,12 +37,12 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.listen(8000,(res,error)=>{
+app.listen(3001,(res,error)=>{
 	if(error){
 		console.log("Error");
 	}
 	else{
-		console.log("server listening on port 8000..");	
+		console.log("server listening on port 3001..");	
 	}
 })
 
