@@ -4,16 +4,31 @@ import axios from 'axios';
 
 function serachingfor(term) {
     return function(x){
-        return x.cname.toLowerCase().includes(term.toLowerCase())||!term;
+        return x.comp_name.toLowerCase().includes(term.toLowerCase())||!term;
     }
 }
 export default class Allocatesup extends React.Component {
 
     constructor(props){
         super(props);
-        this.state={company:[{cname:"aaa",student:"st1"},{cname:"abc",student:"st2"},{cname:"bbb",student:"st3"},{cname:"bbb",student:"st4"},],
+        this.state={company:[{comp_name:"aaa",stu_name:"st1"}],
         assign:[],term:''}
         
+    }
+
+    componentDidMount(){
+        
+        axios.get('http://localhost:8000/students')
+        .then(res => {
+            this.setState({company:res.data});
+            console.log(res.data)
+        });
+        axios.get('http://localhost:8000/company')
+        .then(res => {
+            this.setState({com_detail:res.data});
+            console.log(res.data)
+        });
+    
     }
     searchHandler(event){
         event.preventDefault();
@@ -21,7 +36,6 @@ export default class Allocatesup extends React.Component {
     }
 
     handleClick(){
-
         var sup = this.refs.supervisor.value;
         var std = this.refs.student.value;
         var date = this.refs.date.value;
@@ -29,22 +43,36 @@ export default class Allocatesup extends React.Component {
         var mail=this.refs.email.value;
         var pro = this.refs.project.value;
         var cmp = this.refs.companyname.value;
-        var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"compname":cmp,"email":mail};
+        var dur  = this.refs.duration.value;
 
-        this.setState({assign:assignment});
+        axios.get("http://localhost:3001/assign/" + std).then((res) => {
 
-       
-        if(cmp==='' || std===''|| sup==='' || mail==='' || position===''||pro===''){
-            alert('Enter Correct details');
-        }
-        else{
-            
-            axios.post('http://localhost:3001/assign',assignment).then(function(data){
-            
-            alert("Assign Succesfully !!!");
-        });
-                
+            if (res.data.length !== 0) {
+                alert("Student is already registered.")
             }
+            else {
+
+
+
+              
+                var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"compname":cmp,"email":mail,"duration":dur};
+        
+                this.setState({assign:assignment});
+        
+               
+                if(cmp==='' || std===''|| sup==='' || mail==='' || position===''||pro===''||dur===''){
+                    alert('Enter Correct details');
+                }
+                else{
+                    
+                    axios.post('http://localhost:3001/assign',assignment).then(function(data){
+                    
+                    alert("Assign Succesfully !!!");
+                });
+                        
+                    }
+        }
+        })
 
     };
     render() {
@@ -59,7 +87,13 @@ export default class Allocatesup extends React.Component {
                             <div className="col-md-6">
                                 <div className="form-group ">
                                     <label className="col-form-label">Company Name  </label>
-                                    <input type="text" onChange={this.searchHandler.bind(this)} className="form-control " ref="companyname" required="required" placeholder="Enter company name "/>
+                                    <select className="form-control" onChange={this.searchHandler.bind(this)} ref='companyname'>
+                            {this.state.company.filter(serachingfor(this.state.term)).map(users=>
+                            <option>
+                                    {users.comp_name}
+                            </option>
+                    )}
+                            </select>
                                 </div>  
                             </div>
                             <div className="form-group ">
@@ -78,7 +112,7 @@ export default class Allocatesup extends React.Component {
                             <select className="form-control" ref='student'>
                             {this.state.company.filter(serachingfor(this.state.term)).map(users=>
                             <option>
-                                    {users.student}
+                                    {users.stu_name}
                             </option>
                     )}
                             </select>
@@ -95,18 +129,22 @@ export default class Allocatesup extends React.Component {
                                     <label className="col-form-label">Project  </label>
                                     <input type="text" className="form-control " ref="project" required="required" placeholder="Enter project name "/>
                                 </div>  
+                                <div className="form-group ">
+                                    <label className="col-form-label">Duration (months) </label>
+                                    <input type="number" className="form-control " ref="duration" required="required" placeholder="Enter project duration "/>
+                                </div> 
                             </div>
                            
                             <div className="form-group ">
                             <label className="col-form-label "
-                                   htmlFor="inputDefault">Date</label>
+                                   htmlFor="inputDefault">Start Date</label>
                             <input type="date" className="form-control " ref="date"/>
                         </div>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Position</label>
-                            <input type="test" className="form-control " ref="position"/>
+                            <input type="test" className="form-control " ref="position" required='required'/>
                         </div>
                             </div>
                         

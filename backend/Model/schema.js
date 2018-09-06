@@ -9,7 +9,8 @@ const AssignSchema = new Schema({
 	position:{type:String  },
   email:{type:String},
   compname:{type:String},
-  project:{type : String}
+  project:{type : String},
+  duration:{type : Number}
 
 
 

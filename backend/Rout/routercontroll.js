@@ -17,7 +17,7 @@ router.post('/assign',function (req,res,next) {
 })
 
 router.put('/assign/:id',function (req,res,next) {
-    UserDB.find({dname:req.params.id}).then(function () {
+    UserDB.find({stdname:req.params.id}).then(function () {
         UserDB.update({stdname:req.params.id},req.body).then(function () {
            res.send("Updated");
     }).catch(next)
