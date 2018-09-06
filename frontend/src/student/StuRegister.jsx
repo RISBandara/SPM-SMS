@@ -8,10 +8,8 @@ export default class StuRegister extends Component {
         e.preventDefault();
 
         const student_id = this.refs.stu_dit.value;
-        alert(student_id);
 
         axios.get("http://localhost:8000/students/" + student_id).then((res) => {
-            alert(res.data.length);
 
             if (res.data.length !== 0) {
                 alert("Student ID : " + student_id + " is already registered.")
@@ -28,6 +26,7 @@ export default class StuRegister extends Component {
                     const stuData = {
                         "stu_id": this.refs.stu_dit.value,
                         "company_id": res.data._id,
+                        "comp_name":res.data.name,
                         "stu_name": this.refs.stu_name.value,
                         "address": this.refs.stu_address.value,
                         "year": this.refs.year.value,

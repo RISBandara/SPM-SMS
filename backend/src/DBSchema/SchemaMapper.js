@@ -11,6 +11,9 @@ const StudentSchema =new Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Company'
     },
+    comp_name:{
+                type:String
+    },
     supervisor_id: {
                 type: mongoose.Schema.Types.ObjectId,
                 ref: 'Supervisor'
@@ -72,7 +75,7 @@ mongoose.model('Student',StudentSchema);
 mongoose.model('Company',CompanySchema);
 
 
-mongoose.connect('mongodb://localhost/spm',(err)=>{
+mongoose.connect('mongodb://localhost/sms',(err)=>{
 
     if(err){
         console.error(err);
