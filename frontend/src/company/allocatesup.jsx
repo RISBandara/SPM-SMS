@@ -1,11 +1,43 @@
 import React from 'react';
 
+
+function serachingfor(term) {
+    return function(x){
+        return x.cname.toLowerCase().includes(term.toLowerCase())||!term;
+    }
+}
 export default class Allocatesup extends React.Component {
 
     constructor(props){
         super(props);
-        this.state={assign:[],supervisor:[{"name":"Ishantha"},{"name":"Kasun"},{"name":"Sunil"}],student:[{"sname":"W.M.Jayamaha"},{"sname":"T.K.Dissanayake"}]}
+        this.state={company:[{cname:"aaa",student:"st1"},{cname:"abc",student:"st2"},{cname:"bbb",student:"st3"},{cname:"bbb",student:"st4"},],
+        assign:[],term:''}
+        
     }
+    searchHandler(event){
+        event.preventDefault();
+        this.setState({term:event.target.value})
+    }
+
+    handleClick(){
+
+        var sup = this.refs.supervisor.value;
+        var std = this.refs.student.value;
+        var date = this.refs.date.value;
+        var position = this.refs.position.value;
+        var pro = this.refs.project.value;
+        var cmp = this.refs.companyname.value;
+        var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"company":cmp};
+
+        this.setState({assign:assignment});
+
+        //axios.post('http://localhost:3003/assign',assignment).then(function(data){
+          //  console.log(data);
+            //alert("Assign Succesfully !!!");
+        //});
+
+
+    };
     render() {
         return (
             <div style={{textAlign:'left',marginLeft:'5px',marginRight:'5px',padding:'4px'}}>
@@ -18,13 +50,13 @@ export default class Allocatesup extends React.Component {
                             <div className="col-md-6">
                                 <div className="form-group ">
                                     <label className="col-form-label">Company Name  </label>
-                                    <input type="text" className="form-control " id="companyname" required="required" placeholder="Enter company name "/>
+                                    <input type="text" onChange={this.searchHandler.bind(this)} className="form-control " ref="companyname" required="required" placeholder="Enter company name "/>
                                 </div>  
                             </div>
                             <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">E-Mail <text style={{color:'red'}}>*</text></label>
-                            <input type="text" className="form-control " id="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                            <input type="text" className="form-control " ref="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
                         </div>
                             </div>
                         </div>
@@ -34,41 +66,43 @@ export default class Allocatesup extends React.Component {
                     <div className="card-body">
                         <div className="form-group ">
                             <label className="col-form-label" htmlFor="inputDefault">Student Name <text style={{color:'red'}}>*</text></label>
-                            <select className="form-control">
-                               {this.state.student.map(std=><option>
-                                  {std.sname}
-                                   </option>)}
+                            <select className="form-control" ref='student'>
+                            {this.state.company.filter(serachingfor(this.state.term)).map(users=>
+                            <option>
+                                    {users.student}
+                            </option>
+                    )}
                             </select>
                         </div>
                         <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Supervisor <text style={{color:'red'}}>*</text></label>
-                           <input type="text" className="form-control " id="project" required="required" placeholder="Enter Supervisor name "/>
+                           <input type="text" className="form-control " ref="supervisor" required="required" placeholder="Enter Supervisor name "/>
                             
                         </div>
                         <div className="row"> 
                             <div className="col-md-6">
                                 <div className="form-group ">
                                     <label className="col-form-label">Project  </label>
-                                    <input type="text" className="form-control " id="project" required="required" placeholder="Enter project name "/>
+                                    <input type="text" className="form-control " ref="project" required="required" placeholder="Enter project name "/>
                                 </div>  
                             </div>
                            
                             <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Date</label>
-                            <input type="date" className="form-control " id="date"/>
+                            <input type="date" className="form-control " ref="date"/>
                         </div>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           <div className="form-group ">
                             <label className="col-form-label "
                                    htmlFor="inputDefault">Position</label>
-                            <input type="test" className="form-control " id="position"/>
+                            <input type="test" className="form-control " ref="position"/>
                         </div>
                             </div>
                         
                         <div className="form-group text-right">
-                            <button type="submit" className="btn btn-info pull-right">Submit </button>
+                            <button onClick={this.handleClick.bind(this)} className="btn btn-info pull-right">Submit </button>
                         </div>
                     </div>
                 </form>

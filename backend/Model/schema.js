@@ -3,18 +3,13 @@ const Schema = mongoose.Schema;
 
 const AssignSchema = new Schema({
 
-    supname:{
-        type:String
-    },
-    stdname:{
-        type:String
-    },
-    date:{type:Date},
-	
-	position:{
-		type:String
-		}
-
+  supname:{  type:String  },
+  stdname:{type:String},
+  date:{type:Date},
+	position:{type:String  },
+  email:{type:String},
+  compname:{type:String},
+  project:{type : String}
 
 
 
