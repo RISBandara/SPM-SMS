@@ -4,8 +4,74 @@
     <list default="true" id="8a3f90eb-8fa0-49ce-96e3-4a7fe171a099" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/backend/app.js" afterPath="$PROJECT_DIR$/backend/app.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/HISTORY.md" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/HISTORY.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/README.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/index.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/index.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/read.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/read.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/json.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/json.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/raw.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/raw.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/text.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/text.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/urlencoded.js" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/lib/types/urlencoded.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/body-parser/package.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/.travis.yml" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/.travis.yml" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/Changelog.md" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/Changelog.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/README.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/dbcs-codec.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/dbcs-data.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/index.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/index.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/internal.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/internal.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/big5-added.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp936.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp949.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/cp950.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/eucjp.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/utf16.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/utf16.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/utf7.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/encodings/utf7.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/bom-handling.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/bom-handling.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/extend-node.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/extend-node.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/index.d.ts" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/index.d.ts" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/index.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/index.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/streams.js" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/lib/streams.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/iconv-lite/package.json" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/HISTORY.md" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/HISTORY.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/README.md" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/index.d.ts" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/index.d.ts" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/index.js" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/index.js" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/History.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/lib/compat/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/depd/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/http-errors/HISTORY.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/http-errors/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/http-errors/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/http-errors/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/http-errors/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/setprototypeof/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/setprototypeof/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/setprototypeof/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/node_modules/setprototypeof/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/raw-body/package.json" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" afterPath="$PROJECT_DIR$/backend/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" afterPath="$PROJECT_DIR$/backend/package.json" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Company/Company.Controller.js" afterPath="$PROJECT_DIR$/backend/src/Company/Company.Controller.js" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Company/Company.Routes.js" afterPath="$PROJECT_DIR$/backend/src/Company/Company.Routes.js" />
+      <change beforePath="$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js" afterPath="$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" afterPath="$PROJECT_DIR$/frontend/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
       <change beforePath="$PROJECT_DIR$/frontend/src/student/StuRegister.jsx" afterPath="$PROJECT_DIR$/frontend/src/student/StuRegister.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,62 +86,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Company.Controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/Company/Company.Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/Routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.Controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/Student/Student.Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Company.Routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/Company/Company.Routes.js">
+      <file leaf-file-name="StuRegister.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/student/StuRegister.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,18 +101,18 @@
       <file leaf-file-name="Student.Routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/Student/Student.Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchemaMapper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SchemaMapper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="40" column="9" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="139">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -123,14 +141,15 @@
         <option value="$PROJECT_DIR$/frontend/src/common/navigation/studentnav.jsx" />
         <option value="$PROJECT_DIR$/frontend/src/app_view/student_view.jsx" />
         <option value="$PROJECT_DIR$/frontend/src/App.css" />
-        <option value="$PROJECT_DIR$/frontend/src/student/StuRegister.jsx" />
         <option value="$PROJECT_DIR$/backend/src/Student/Student.Controller.js" />
-        <option value="$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js" />
-        <option value="$PROJECT_DIR$/backend/src/Company/Company.Controller.js" />
         <option value="$PROJECT_DIR$/backend/src/Student/Student.Routes.js" />
-        <option value="$PROJECT_DIR$/backend/app.js" />
         <option value="$PROJECT_DIR$/backend/Routes.js" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/backend/src/Company/Company.Controller.js" />
         <option value="$PROJECT_DIR$/backend/src/Company/Company.Routes.js" />
+        <option value="$PROJECT_DIR$/backend/app.js" />
+        <option value="$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js" />
+        <option value="$PROJECT_DIR$/frontend/src/student/StuRegister.jsx" />
       </list>
     </option>
   </component>
@@ -150,7 +169,7 @@
     <handled-path value="$PROJECT_DIR$/backend/node_modules" />
     <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="5" />
     <option name="width" value="1370" />
@@ -203,6 +222,37 @@
               <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SPM-SMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM-SMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DBSchema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM-SMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM-SMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM-SMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM-SMS" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +264,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Project-SPM/test/SPM-SMS" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -244,27 +294,29 @@
       <updated>1535999229004</updated>
       <workItem from="1535999232472" duration="12911000" />
       <workItem from="1536063003840" duration="15531000" />
-      <workItem from="1536153066095" duration="2449000" />
+      <workItem from="1536153066095" duration="19263000" />
+      <workItem from="1536189813758" duration="3612000" />
+      <workItem from="1536235330644" duration="9843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30891000" />
+    <option name="totallyTimeSpent" value="61160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14806548" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14880952" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3536184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17598684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -281,10 +333,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/src/student/StuRegister.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/student/StuRegister.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -297,7 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -305,7 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -313,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -321,7 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -337,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -345,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,6 +467,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -381,6 +484,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1608">
           <caret line="67" column="165" lean-forward="false" selection-start-line="67" selection-start-column="165" selection-end-line="67" selection-end-column="165" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,13 +543,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/student/StuRegister.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="48" column="93" lean-forward="false" selection-start-line="48" selection-start-column="93" selection-end-line="48" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,35 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/Student/Student.Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/Company/Company.Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,31 +574,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/Student/Student.Controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding />
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/Company/Company.Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/Company/Company.Controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="144">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/Student/Student.Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/DBSchema/SchemaMapper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="40" column="9" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="139">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/student/StuRegister.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

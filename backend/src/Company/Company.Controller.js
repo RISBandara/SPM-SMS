@@ -5,8 +5,8 @@ var CompanyController = function(){
 
     this.addCompany = (data) =>{
         return new Promise((resolve ,reject)=>{
-           CompanySchema.create(data).then(()=>{
-               resolve({status:200,message:'Successfully added new company'});
+           CompanySchema.create(data).then((res)=>{
+               resolve({status:200,message:'Successfully added new company',data:res});
            }).catch(err=>{
                reject({status:500,message:'Err '+err});
            })

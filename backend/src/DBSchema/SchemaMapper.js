@@ -11,6 +11,10 @@ const StudentSchema =new Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Company'
     },
+    supervisor_id: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'Supervisor'
+        },
     stu_name:{
         type: String,
         required:true
@@ -58,6 +62,10 @@ const CompanySchema =new Schema({
             type:String,
             required:true
         }
+});
+
+const SupervisorSchema =new Schema({
+
 });
 
 mongoose.model('Student',StudentSchema);
