@@ -11,7 +11,7 @@ export default class Allocatesup extends React.Component {
 
     constructor(props){
         super(props);
-        this.state={company:[{comp_name:"aaa",stu_name:"st1"}],
+        this.state={company:[{comp_name:"aaa",stu_name:"st1",stu_id:"IT15151834"},{comp_name:"bbb",stu_name:"st2",stu_id:"IT15153434"}],
         assign:[],term:''}
         
     }
@@ -38,6 +38,7 @@ export default class Allocatesup extends React.Component {
     handleClick(){
         var sup = this.refs.supervisor.value;
         var std = this.refs.student.value;
+        var stdid = this.refs.studentid.value;
         var date = this.refs.date.value;
         var position = this.refs.position.value;
         var mail=this.refs.email.value;
@@ -55,7 +56,7 @@ export default class Allocatesup extends React.Component {
 
 
               
-                var assignment = {"supname":sup,"stdname":std,"date":date,"position":position,"project":pro,"compname":cmp,"email":mail,"duration":dur};
+                var assignment = {"supname":sup,"stdid":stdid,"stdname":std,"date":date,"position":position,"project":pro,"compname":cmp,"email":mail,"duration":dur};
         
                 this.setState({assign:assignment});
         
@@ -107,6 +108,16 @@ export default class Allocatesup extends React.Component {
 
                     <div className="card-header">Allocation details</div>
                     <div className="card-body">
+                        <div className="form-group ">
+                            <label className="col-form-label" htmlFor="inputDefault">Student Reg Number <text style={{color:'red'}}>*</text></label>
+                            <select className="form-control" ref='studentid'>
+                            {this.state.company.filter(serachingfor(this.state.term)).map(users=>
+                            <option>
+                                    {users.stu_id}
+                            </option>
+                    )}
+                            </select>
+                        </div>
                         <div className="form-group ">
                             <label className="col-form-label" htmlFor="inputDefault">Student Name <text style={{color:'red'}}>*</text></label>
                             <select className="form-control" ref='student'>
