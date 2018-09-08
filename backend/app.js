@@ -3,10 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const bodyparser = require('body-parser');
-const mongoose = require('mongoose');
-const router  = require('./Rout/routercontroll');
-const cors = require('cors');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -18,11 +14,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(logger('dev'));
-
-app.use(cors());
-mongoose.connect('mongodb://localhost/sms');
-mongoose.Promise=global.Promise;
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -30,19 +21,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/',router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.listen(3001,(res,error)=>{
+app.listen(8000,(res,error)=>{
 	if(error){
 		console.log("Error");
 	}
 	else{
-		console.log("server listening on port 3001..");	
+		console.log("server listening on port 8000..");	
 	}
 })
 
