@@ -71,8 +71,43 @@ const SupervisorSchema =new Schema({
 
 });
 
+const Form_I3Schema = new Schema({
+
+    stu_id: {
+        type: String,
+        required: true
+    },
+    "sup_id": {
+        type: String,
+        required: true
+    },
+    "month": {
+        type: String,
+        required: true
+    },
+    "summery": {
+        type: String,
+        required: true
+    },
+    "detail": {
+        type: String,
+        required: true
+    },
+    "status": {
+        type: Boolean
+    },
+    "sup_remark": {
+        type: String
+    },
+    "attest_date": {
+        type: String
+    },
+
+});
+
 mongoose.model('Student',StudentSchema);
 mongoose.model('Company',CompanySchema);
+mongoose.model('FormI_3',Form_I3Schema);
 
 
 mongoose.connect('mongodb://localhost/sms',(err)=>{
