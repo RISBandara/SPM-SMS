@@ -18,6 +18,9 @@ export default class Formione extends React.Component {
         const margin_1 ={
             marginLeft: 250,
         };
+        const select_option = {
+            width : 500,
+        };
 
         return (
             <div>
@@ -35,6 +38,21 @@ export default class Formione extends React.Component {
                             <div className="col-md-3">
                                 <input type="number" className="form-control" id="studentid"/>
                                 <button type="submit" style={button_css}>Search Student Details</button>
+                            </div>
+                        </div>
+                        <br/>
+
+                        <div className="row">
+                            <div className="col-md-3">
+                                <label>Select Supervisor using Name</label>
+                            </div>
+                            <div className="col-md-6">
+                                <select style={select_option} className="form-control" id="testpriority">
+                                    <option id="p0">--Choose one--</option>
+                                    <option id="p1">Mr.xxxxxxxxxxxxxxx</option>
+                                    <option id="p2">Mr.yyyyyyyyyyyyyyy</option>
+                                    <option id="p3">Mr.uuuuuuuuuuuuuuu</option>
+                                </select>
                             </div>
                         </div>
                         <br/>
