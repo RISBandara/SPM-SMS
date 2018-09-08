@@ -1,10 +1,37 @@
 .header{
-    height: 85px;
+    height:60px;
     background: #17a2b8;
-    background-image: url("../../IMG/logo.png");
+    /*background-image: url("../../IMG/logo.png");*/
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: aliceblue;
     background-repeat: no-repeat;
+    padding-top: 5px;
+
     
+}
+.logout-logo{
+    margin-top: 5px;
+    text-align: right;
+    padding: 0;
+}
+
+.logout-text{
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
+}
+.image{
+    text-align: left;
+}
+.username{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-logo{
+    height:50px;
+    width:200px;
 }
