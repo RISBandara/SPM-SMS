@@ -2,10 +2,11 @@ import React from 'react';
 import '../App.css';
 import {Footer} from "../common/footer/footer";
 import {Header} from "../common/header/header";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import StudentHome from '../student/StuHome';
+import StudentReg from '../student/StuRegister';
+import StudentNav from '../common/navigation/studentnav';
 import Student_main from '../student_main/formi1';
-import Studentnav from '../common/navigation/studentnav';
-
 
 export default class Student_App extends React.Component {
     render() {
@@ -15,11 +16,13 @@ export default class Student_App extends React.Component {
                     <Header/>
                     <div className="row sidebar">
                         <div className="col-md-2 side-nav">
-                            <Studentnav/>
+                            <StudentNav/>
                         </div>
                         <div className="col-md-10 ">
                             <div className="row">
                                 <div className="col-md-12 top-nav">
+                                    <Route path="/studentHome" component={StudentHome}/>
+                                    <Route path="/studentRegister" component={StudentReg}/>
                                     <Route  path="/Formione" component={Student_main} />
                                 </div>
                             </div>
