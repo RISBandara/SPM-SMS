@@ -46,7 +46,7 @@ export default class Allocatesup extends React.Component {
         var cmp = this.refs.companyname.value;
         var dur  = this.refs.duration.value;
 
-        axios.get("http://localhost:3001/assign/" + std).then((res) => {
+        axios.get("http://localhost:8000/assign/" + std).then((res) => {
 
             if (res.data.length !== 0) {
                 alert("Student is already registered.")
@@ -66,7 +66,7 @@ export default class Allocatesup extends React.Component {
                 }
                 else{
                     
-                    axios.post('http://localhost:3001/assign',assignment).then(function(data){
+                    axios.post('http://localhost:8000/assign',assignment).then(function(data){
                     
                     alert("Assign Succesfully !!!");
                 });
