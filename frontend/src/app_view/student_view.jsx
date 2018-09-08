@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import StudentHome from '../student/StuHome';
 import StudentReg from '../student/StuRegister';
 import StudentNav from '../common/navigation/studentnav';
-
+import Student_main from '../student_main/formi1';
 
 export default class Student_App extends React.Component {
     render() {
@@ -23,6 +23,7 @@ export default class Student_App extends React.Component {
                                 <div className="col-md-12 top-nav">
                                     <Route path="/studentHome" component={StudentHome}/>
                                     <Route path="/studentRegister" component={StudentReg}/>
+                                    <Route  path="/Formione" component={Student_main} />
                                 </div>
                             </div>
                         </div>
