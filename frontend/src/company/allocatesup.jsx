@@ -23,12 +23,12 @@ export default class Allocatesup extends React.Component {
             this.setState({company:res.data});
             console.log(res.data)
         });
-        axios.get('http://localhost:8000/company')
+      /*  axios.get('http://localhost:8000/company')
         .then(res => {
             this.setState({com_detail:res.data});
             console.log(res.data)
-        });
-    
+          });
+    */
     }
     searchHandler(event){
         event.preventDefault();
