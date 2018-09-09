@@ -11,6 +11,11 @@ export default class StuRegister extends Component {
         e.preventDefault();
 
         const student_id = this.refs.stu_dit.value;
+    /**
+     * call student service with the form student id and checks if the new student is already registered with a company.
+     *If student id not exists,student form data collected and student and ompany backend services are called to 
+     *store the registration info. 
+     */
 
         axios.get("http://localhost:8000/students/" + student_id).then((res) => {
 
@@ -25,7 +30,7 @@ export default class StuRegister extends Component {
                 };
                 console.log(compData);
 
-                axios.post("http://localhost:8000/company", compData).then((res) => {
+                axios.post("http://localhost:8000/company", compData).then((res) => {upd
                     const stuData = {
                         "stu_id": this.refs.stu_dit.value,
                         "company_id": res.data._id,
