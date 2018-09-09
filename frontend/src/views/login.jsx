@@ -87,6 +87,9 @@ class Login extends Component {
         event.preventDefault();
         BaseUrl.post(`users`,user)
             .then(res => {
+                /**
+                *set userrole and username in localstorage 
+                */
                 localStorage.setItem('token',res.data.token);
                 localStorage.setItem('userRole',res.data.userRole);
                 localStorage.setItem('username',res.data.username);
