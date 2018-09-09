@@ -3,6 +3,7 @@ import React from 'react';
 export default class Formione extends React.Component {
     render() {
 
+        //Inline CSS declaration for the form
         const container_display = {
             marginTop : 60,
         };
@@ -24,11 +25,15 @@ export default class Formione extends React.Component {
 
         return (
             <div>
+                
+                //Body Container -> heading part
                 <h3 style={title_display}>Industrial Training Management - INTERNSHIP ACCEPTANCE FORM I-1</h3> <br/>
                 <center><h5>(Enter Student ID and Check Details**)</h5>
                 </center>
 
                 <form>
+                    
+                    //Main display Form 
                     <div className="container" style={container_display}>
 
                         <div className="row" style={margin_1}>
@@ -48,6 +53,7 @@ export default class Formione extends React.Component {
                             </div>
                             <div className="col-md-6">
                                 <select style={select_option} className="form-control" id="testpriority">
+                                    //TODO : to retrieve supervisor name. 
                                     <option id="p0">--Choose one--</option>
                                     <option id="p1">Mr.xxxxxxxxxxxxxxx</option>
                                     <option id="p2">Mr.yyyyyyyyyyyyyyy</option>
@@ -133,6 +139,7 @@ export default class Formione extends React.Component {
 
                         <div className="row">
                             <div className="col-md-3">
+                                //Button part
                                 <button type="submit" style={button_css}>Submit Form</button>
                             </div>
                             <div className="col-md-3">
