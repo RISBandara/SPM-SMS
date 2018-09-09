@@ -9,6 +9,9 @@ import StudentNav from '../common/navigation/studentnav';
 import Student_main from '../student_main/formi1';
 
 export default class Student_App extends React.Component {
+    /**
+     * student layout
+     */
     render() {
         return (
             <Router>

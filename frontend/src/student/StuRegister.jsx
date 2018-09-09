@@ -4,6 +4,9 @@ import axios from 'axios';
 
 export default class StuRegister extends Component {
 
+    /**
+     * student registration
+     */
     handleformSubmit(e) {
         e.preventDefault();
 

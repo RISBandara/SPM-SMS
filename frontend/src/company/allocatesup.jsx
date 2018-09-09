@@ -17,7 +17,9 @@ export default class Allocatesup extends React.Component {
     }
 
     componentDidMount(){
-        
+        /**
+         * student service calling
+         */
         axios.get('http://localhost:8000/students')
         .then(res => {
             this.setState({company:res.data});
@@ -30,11 +32,18 @@ export default class Allocatesup extends React.Component {
           });
     */
     }
+
+    /**
+     * Handling user input for search
+     */
     searchHandler(event){
         event.preventDefault();
         this.setState({term:event.target.value})
     }
 
+    /**
+     * button click
+     */
     handleClick(){
         var sup = this.refs.supervisor.value;
         var std = this.refs.student.value;
