@@ -33,12 +33,18 @@ class Login extends Component {
         };
     }
 
+    /**
+    *success notification
+    */
     notifySuccess = (message) => {
         toast.success(message, {
             position: toast.POSITION.BOTTOM_RIGHT
         });
     };
 
+    /**
+    *error notification
+    */
     notifyError = (message) => {
         toast.error(message, {
             position: toast.POSITION.BOTTOM_RIGHT
@@ -52,6 +58,9 @@ class Login extends Component {
         console.log(this.state);
     }
 
+    /**
+    * Form validation
+    */
     validation(){
         if(!this.state.newUsername){
             this.notifyError("Please enter a username");
@@ -67,6 +76,9 @@ class Login extends Component {
         }
     }
 
+    /**
+    * Login 
+    */
     handleSubmit=(event)=>{
         var user={
             username:this.state.username,
