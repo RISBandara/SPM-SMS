@@ -3,4 +3,3 @@ node_js:
   - "node"
   - "8.11.4"
 install: true
-script: yarn build
