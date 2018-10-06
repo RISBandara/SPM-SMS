@@ -10,4 +10,4 @@ script: npm run-script build
 deploy:
   provider: heroku
   api_key:
-    secure: "1beb3f38-c9e3-4785-9906-e430d486153f"
+    secure: "2ea444e8-e266-44b4-94e1-fdfe41793291"
