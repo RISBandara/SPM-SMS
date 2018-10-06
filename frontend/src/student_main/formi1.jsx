@@ -21,11 +21,11 @@ export default class Formione extends React.Component {
 
         return (
             <div>
-                <h3 style={title_display}>Industrial Training Management - INTERNSHIP ACCEPTANCE FORM I-1</h3> <br/>
+                <h3 style={title_display} className="form-title">Industrial Training Management - INTERNSHIP ACCEPTANCE FORM I-1</h3> <br/>
                 <center><h5>(All the fields Required**)</h5>
                 </center>
 
-                <form>
+                <form className="form-form">
                     <div className="container" style={container_display}>
 
                         <div className="row" style={margin_1}>
@@ -114,12 +114,14 @@ export default class Formione extends React.Component {
 
                         <div className="row">
                             <div className="col-md-3">
-                                <button type="submit" style={button_css}>Submit Form</button>
+                                <button className="btn-form" type="submit" style={button_css}>Submit Form</button>
                             </div>
                             <div className="col-md-3">
-                                <button type="reset" style={button_css}>Cancel</button>
+                                <button className="btn-form" type="reset" style={button_css}>Cancel</button>
                             </div>
                         </div>
+                        <br />
+                        <br />
 
                     </div>
                 </form>
