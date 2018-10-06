@@ -2,4 +2,8 @@ language: node_js
 node_js:
   - "node"
   - "8.11.4"
-install: true
+install:
+  - bundle install --path vendor/bundle
+  - npm install
+
+script: bundle exec yarn build
