@@ -16,7 +16,7 @@ export default class Student_App extends React.Component {
         return (
             <Router>
                 <div className="App">
-                    //Header is imported and called inside the div
+                    {/*Header is imported and called inside the div*/}
                     <Header/>
                     <div className="row sidebar">
                         <div className="col-md-2 side-nav">
@@ -25,7 +25,7 @@ export default class Student_App extends React.Component {
                         <div className="col-md-10 ">
                             <div className="row">
                                 <div className="col-md-12 top-nav">
-                                    //RENDER RELEVANT INTERFACES RELATED TO THE PATH DECLARED
+                                    {/*RENDER RELEVANT INTERFACES RELATED TO THE PATH DECLARED*/}
                                     <Route path="/studentHome" component={StudentHome}/>
                                     <Route path="/studentRegister" component={StudentReg}/>
                                     <Route  path="/Formione" component={Student_main} />
