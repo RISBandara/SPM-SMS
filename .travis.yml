@@ -11,3 +11,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "c9b6b7ad-b11c-4984-8aa1-344a6441b100"
+    app: spm-sms
