@@ -9,6 +9,5 @@ script: npm run-script build
 
 deploy:
   provider: heroku
-  api_key:
-    secure: "2bc98fd5-19d4-4f5a-b41b-1d6f6b8cb9a4"
-    app: spm-sms
+  api_key: "2bc98fd5-19d4-4f5a-b41b-1d6f6b8cb9a4"
+  app: spm-sms
