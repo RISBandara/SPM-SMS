@@ -8,6 +8,6 @@ install:
 script: npm run-script build
 
 deploy:
-  provider: heroku
-  api_key:
-    secure: "1beb3f38-c9e3-4785-9906-e430d486153f"
+  provider: firebase
+  token:
+    secure: "1/Kl_zjRXm5i9bLJTxOf-duTD3I-gdM548naSugyX34II"
