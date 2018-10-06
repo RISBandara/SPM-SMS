@@ -6,3 +6,8 @@ install:
   - npm install
 
 script: yarn build
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "a6d47155-41ac-4445-92a4-8151b2c4b645"
